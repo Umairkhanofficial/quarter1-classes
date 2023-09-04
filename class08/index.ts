@@ -9,6 +9,7 @@ let car:cartype={
     engine:"x200",
 
 }
+
 console.log(car);
 
 let cartype1:{
@@ -36,3 +37,17 @@ let fruits=[{
 }]
 
 console.log(fruits[0],fruits[1].box);
+ 
+type car2type={
+    model:string;
+    color:string;
+    engine:string;
+}
+let car2:cartype={
+    model:"Audi",
+    color:"white",
+    engine:"x200",
+
+}
+
+console.log(car2);
