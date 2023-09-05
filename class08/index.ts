@@ -29,14 +29,24 @@ let fruits=[{
     name:"apple",
     quantity: 4,
     box:6,
+    isavailable:true,
 },
 {
   name :"banana",
   quantity:2,
   box:2,
+  isavailable:true,
 }]
 
-console.log(fruits[0],fruits[1].box);
+let active=fruits.filter((data)=>{
+    if (data.isavailable==true) {
+        return true
+    }
+    
+    
+}) 
+console.log(active);
+//console.log(fruits[0],fruits[1].box);
  
 type car2type={
     model:string;
