@@ -61,3 +61,10 @@ let car2:cartype={
 }
 
 console.log(car2);
+const nameAgeMap: { [index: string]: number } = {};
+
+nameAgeMap.Jack = 25; // no error
+
+nameAgeMap.Mark = "Fifty"; // Error: Type 'string' is not assignable to type 'number'.
+
+console.log(nameAgeMap);
