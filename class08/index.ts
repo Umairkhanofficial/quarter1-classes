@@ -68,3 +68,11 @@ nameAgeMap.Jack = 25; // no error
 nameAgeMap.Mark = "Fifty"; // Error: Type 'string' is not assignable to type 'number'.
 
 console.log(nameAgeMap);
+
+//type inference 
+
+let car5 = {
+  type: "string",
+};
+car5.type = "Ford"; // no error
+car5.type = 2; // Error: Type 'number' is not assignable to type 'string'.
