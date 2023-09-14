@@ -37,7 +37,7 @@ main();
 
 */
 
-
+/*
 import inquirer from "inquirer";
 inquirer.prompt([
     {
@@ -77,34 +77,34 @@ inquirer.prompt([
             break;
     }
 });
+*/
 
+console.log("Start "); //1
 
-// console.log("Start "); //1
+function printInFunction() {
+const time = new Date();
+// const _time = time.toLocaleTimeString();
+console.log("🚀 ~ file: index.ts:5 ~ printInFunction ~ time:", time);
+}
 
-// function printInFunction() {
-// const time = new Date();
-// // const _time = time.toLocaleTimeString();
-// console.log("🚀 ~ file: index.ts:5 ~ printInFunction ~ time:", time);
-// }
+let count = 0; //0//1//2//3
+const interval_id = setInterval(() => {
+  printInFunction();
+  count++;
+  if (count === 3) {
+    clearInterval(interval_id);
+  }
+}, 2000);
 
-// let count = 0; //0//1//2//3
-// const interval_id = setInterval(() => {
-//   printInFunction();
-//   count++;
-//   if (count === 3) {
-//     clearInterval(interval_id);
-//   }
-// }, 2000);
+console.log("end"); //2
+// A
+// console.log("Start");
 
-// console.log("end"); //2
-// // A
-// // console.log("Start");
+// setTimeout(() => {
+//   console.log("In set time out");
+// }, 1000);
 
-// // setTimeout(() => {
-// //   console.log("In set time out");
-// // }, 1000);
-
-// // console.log("End");
+// console.log("End");
 
 // let car: {} = {
 //   model: "civic",
