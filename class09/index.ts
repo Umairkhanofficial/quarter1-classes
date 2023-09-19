@@ -3,6 +3,29 @@
 //async settimeout setinterval
 //promise or async wait
 //class with constructor
+
+class car {
+    model:number=0;
+    color:string='not yet';
+    price:number=0;
+    constructor(_model:number,_color:string,_price:number) {
+        this.model=_model;
+        this.color=_color;
+        this.price=_price;
+    }
+};
+let carObg = new car(1992,'dd',500);
+console.log(carObg);
+// carObg.color='red';
+// carObg.model=1992;
+// carObg.price=300;
+//console.log(carObg);
+
+
+
+
+
+
 /*class teacher {
     name:string="";
     age:number=0;
@@ -91,6 +114,7 @@ let count = 0; //0//1//2//3
 const interval_id = setInterval(() => {
   printInFunction();
   count++;
+  
   if (count === 3) {
     clearInterval(interval_id);
   }

@@ -2,6 +2,23 @@
 //async settimeout setinterval
 //promise or async wait
 //class with constructor
+class car {
+    model = 0;
+    color = 'not yet';
+    price = 0;
+    constructor(_model, _color, _price) {
+        this.model = _model;
+        this.color = _color;
+        this.price = _price;
+    }
+}
+;
+let carObg = new car(1992, 'dd', 500);
+console.log(carObg);
+// carObg.color='red';
+// carObg.model=1992;
+// carObg.price=300;
+//console.log(carObg);
 /*class teacher {
     name:string="";
     age:number=0;
