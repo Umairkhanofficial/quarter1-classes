@@ -4,7 +4,7 @@
 //promise or async wait
 //class with constructor
 
-class car {
+class bike {
     model:number=0;
     color:string='not yet';
     price:number=0;
@@ -14,12 +14,12 @@ class car {
         this.price=_price;
     }
 };
-let carObg = new car(1992,'dd',500);
-console.log(carObg);
+let bikeObg = new bike(1992,'dd',500);
+console.log(bikeObg);
 // carObg.color='red';
 // carObg.model=1992;
 // carObg.price=300;
-//console.log(carObg);
+//console.log(bikeObg);
 
 
 
