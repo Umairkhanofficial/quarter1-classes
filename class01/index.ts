@@ -7,3 +7,11 @@ var FullName = FirstName + LastName;
 console.log(FullName);
 console.log(age,contact);
 
+
+
+function addNumbers(a: number, b: number): number {
+  return a + b;
+}
+
+const result = addNumbers(5, 7);
+console.log(`The result is: ${result}`);
